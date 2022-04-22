@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace continue_state_for_loop
+{
+    public class Program
+    {
+         public static void Main(string[] args)
+        { 
+            for(int x=1;x<=12;x++)
+            {
+                if(x==3)
+                {
+                    continue;
+                }
+                Console.WriteLine(x);
+            }
+        }
+    }
+}
